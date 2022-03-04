@@ -96,14 +96,14 @@
               h4.mb-2 Existen otros métodos para secar madera de manera artificial, entre los cuales se destacan: secado por radiofrecuencia, secado solar, secado al vacío, secado por deshumidificación, secado a altas o bajas temperaturas, al aire con circulación de aire forzado (abanicos portátiles), al aire y secado convencional, radiaciones de ultrasonido, infrarrojo, microondas, entre otros.
               span - (Muñoz-Acosta, 2012).
       .col-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img05.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Hay que mencionar que las instalaciones para secar madera deben tener un buen aislamiento térmico, ser de construcción hermética, fabricarse de materiales resistentes a la corrosión y elevadas temperaturas, y disponer de puertas de fácil manejo y cierre hermético, así como estar provistas de un sistema de humectación para las piezas de madera, También deben poseer  un drenaje interior para la evacuación del agua eliminada durante el secado, producto de la evaporación del agua de la madera y/o de los tratamientos humectantes.
 
-    .row.my-4.g-4
+    .row.my-4.g-4.justify-content-center
       .col-12.col-lg-6
         #t_1_2.titulo-segundo.color-acento-contenido
           h2 1.2 Xilohigrómetro
@@ -112,6 +112,57 @@
 
       .col-12.col-lg-6
         img.img250.m-auto(src='@/assets/curso/tema1/img06.svg', alt='Xilohigrómetro', class='img-fluid')
+
+      .col-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/img07.jpg')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Los xilohigrómetros, como su nombre lo indica (
+              i xilo 
+              | = madera; 
+              i higrómetro 
+              | = medidor de humedad), son dispositivos que permiten medir la humedad en la madera, y por tanto, son necesarios y piezas útiles al momento de garantizar el proceso de secado, para obtener un producto de buena calidad; su uso es indispensable, no sólo durante el proceso de secado, sino durante su almacenamiento y transformación, pues la humedad varía en todas estas etapas.
+
+      .col-12.my-4
+        p Estos instrumentos se emplean hoy en día con mucho éxito, ya que efectúan mediciones rápidas y fáciles de la cantidad de humedad en la pieza, esa humedad representada en cantidad de agua que contiene la madera, tanto en los vasos, denominada agua libre, como en las paredes celulares, denominada agua de saturación. En pocas palabras, ayudan a determinar si la madera está verde o seca.
+
+        strong Observe la forma cómo se mide la humedad en la madera aserrada con ayuda de un xilohigrómetro
+        br
+        br
+        .tarjeta.tarjeta.p-4.mb-5
+          h4.text-center.titulo-cuarto Relación madera - humedad
+          SlyderA
+            .row.justify-content-center.my-4.p-2
+              .col-10.bg-slydera
+                img.m-auto.img450(src='@/assets/curso/tema1/s01.svg', alt='Texto que describa la imagen')
+                br
+                h4.text-center Los electrodos se introducen en la madera
+            .row.justify-content-center.my-4.p-2
+              .col-10.bg-slydera
+                img.m-auto.img450(src='@/assets/curso/tema1/s02.svg', alt='Texto que describa la imagen')
+                br
+                h4.text-center Las lecturas se obtienen en un dial previamente calibrado
+          
+            .row.justify-content-center.my-4.p-2
+              .col-10.bg-slydera
+                img.m-auto.img160.img-fluid(src='@/assets/curso/tema1/s03.svg', alt='Texto que describa la imagen')
+                br
+                h4.text-center a) La determinación del gradiente de humedad puede hacerse midiendo la humedad en una cara y luego en un extremo recién cortado.
+
+
+            .row.justify-content-center.my-4.p-2
+              .col-10.bg-slydera
+                img.m-auto.img450.img-fluid(src='@/assets/curso/tema1/s04.svg', alt='Texto que describa la imagen')
+                br
+                h4.text-center b) Utilizando electrodos que se introducen a diferente profundidad.
+        separador
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        #t_1_3.titulo-segundo.color-acento-contenido
+          h2 1.3  Gravimétricos 
+
+
 </template>
 
 <script>
