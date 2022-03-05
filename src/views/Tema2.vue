@@ -2,139 +2,50 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal
-      .h3 Producción Audiovisual
-    
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
-    
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero
+        span 2
+      h1 Manuales técnicos
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .cajon.color-acento-contenido.bg-color-acento-contenido-o25.p-4.mb-4
+      p Los manuales técnicos de operación de secado tienen la finalidad de proporcionar al operador de los hornos o cámaras de secado las pautas de configuración y la lógica con la que se debe desarrollar el proceso.
+      p Cada equipo debe tener un manual técnico, sin embargo, a manera general, con todos los procesos es indispensable revisar los siguientes pasos.
 
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
+    .row
+      .col-12.col-lg-8
+        ol.lista-ol--cuadro.lista-ol--separador
+          li
+          li
+            .lista-ol--cuadro__vineta
+              span 1
+            p 
+              strong Verificar la cámara de secado: 
+              | una vez inicie el proceso de secado, es difícil identificar ciertas condiciones, como lo es la humidificación, la cual sufre al taponarse los aspersores. Por tanto, es necesario revisar válvulas de ingreso de agua, la disposición de combustible, funcionamiento de ventiladores y de la caldera, comprobar la conexión de los sensores de humedad y comprobar el cierre hermético de las puertas del horno.
 
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
+          li
+            .lista-ol--cuadro__vineta
+              span 2
+            p 
+              strong 2.	Durante el secado: 
+              | el operador deberá conocer la especie y carga de madera a secar, por tanto, debe encender el horno y operar el controlador, el cual puede ser operado  de forma automática, semiautomática o manual. Este  proceso, con el fin de conservar las condiciones climáticas adecuadas para el secado de la carga, deberá estar atento a cualquier incremento de temperatura y humedad en la cámara de secado y, pasado un tiempo, debe supervisar si han aparecido defectos en la madera, esto lo hace realizando ingresos  periódicos a la cámara de secado, donde verificará el proceso.
+          li
+      .col-12.col-lg-4
+        img(src='@/assets/curso/tema2/img01.png', alt='Pasos del proceso', class='img-fluid')
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    #t_2_1.titulo-segundo.color-acento-contenido
+      h2 2.1 Tipos de programa        
 
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
+    .row
+      .col-12.col-lg-3
+        p Los programas de secado consisten en una serie de instrucciones que, por medio de las muestras o tablas de control, permiten supervisar el avance del proceso dentro de la cámara. El programa de secado se encarga de controlar, dentro de la cámara, las condiciones básicas de contenido de humedad de la madera, la temperatura máxima permisible y la humedad relativa (HR) del aire.
+      .col-12.col-lg-9
+        .bloque-texto-c.bg-caja-instrumentos.p-4
+          i.fas.fa-quote-right
+          h4.mb-2 Para una correcta elección del programa de secado de la madera, se deben tener en cuenta ciertas variables, como son: la especie de madera a secar, el espesor de las piezas a secar y el contenido de humedad inicial de la madera. Por lo general, los hornos emplean maderas europeas y africanas como referencia en sus programas. Para aquellas especies que no aparecen en los programas preestablecidos del horno, es necesario que el operador confronte la información de densidad de las maderas europeas o africanas con aquellas nacionales que se deseen secar.
+          span - (CITEmadera, 2009).
 
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+          
 
 </template>
 

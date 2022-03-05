@@ -132,7 +132,7 @@
         br
         br
         .tarjeta.tarjeta.p-4.mb-5
-          h4.text-center.titulo-cuarto Relación madera - humedad
+          h4.text-center.titulo-cuarto.font-color-acento-contenido Relación madera - humedad
           SlyderA
             .row.justify-content-center.my-4.p-2
               .col-10.bg-slydera
@@ -158,11 +158,83 @@
                 br
                 h4.text-center b) Utilizando electrodos que se introducen a diferente profundidad.
         separador
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+
         #t_1_3.titulo-segundo.color-acento-contenido
           h2 1.3  Gravimétricos 
 
+        .cajon.color-acento-contenido.bg-color-acento-contenido-o25.p-4.mb-4
+          p Como se ha mencionado, la madera obtendrá estabilidad dimensional cuando su contenido de humedad (CH) alcance un equilibrio con el contenido de humedad del ambiente. El método gravimétrico, al igual que el eléctrico, es comúnmente utilizado para conocer el contenido de humedad en las piezas de madera, también se conoce con el nombre de secado en estufa, es un método avalado científicamente para conocer el agua contenida en la madera.
 
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-tarjeta-acordion")
+          .row.justify-content-center(titulo="Control del proceso de secado")
+            .col-lg-3.mb-4
+              p Deben utilizarse dos tipos diferentes de piezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
+            .col-lg-7
+                img.m-auto.img-fluid.img450(src='@/assets/curso/tema1/t01.svg', alt='Control del proceso de secado')
+                figcaption.text-center Preparación de muestras de control de humedad
+
+          .row.justify-content-center(titulo="Limpieza y pesaje")
+            .col-lg-3.mb-4
+              p Después del corte, deben limpiarse y pesarse de forma inmediata  las probetas a y b, buscando no alterar los resultados. Se recomienda utilizar, para la medición del peso, una balanza electrónica de plato, con precisión de al menos 1 g, la cual se sugiere que esté ubicada cerca del horno de secado, tal como se puede observar en la siguiente figura.
+            .col-lg-7
+                img.m-auto.img-fluid.img450(src='@/assets/curso/tema1/t02.svg', alt='Limpieza y pesaje')
+        
+          .row.justify-content-center(titulo="Calcular la humedad")
+            .col-lg-3.mb-4
+              p Se ubican las probetas en la estufa y se procede a su secado a una temperatura de 103 +/- 2°C, hasta que su peso no varíe, calculando el contenido de humedad con la siguiente fórmula:
+            .col-lg-7.py-4
+              div.formula.d-flex.justify-content-center.align-items-center
+                span.fw-bold.font-color-acento-contenido contenido de humedad (%) = 
+                .fraction
+                  span.fup Peso Inicial - Peso Final
+                  span.bar /
+                  span.fdn Peso Final
+                span x 100%
+
+          .row.justify-content-center(titulo="Sellado de la muestra de control o testigo")
+            .col-lg-3.mb-4
+              p Simultáneamente, la muestra de control o testigo se va sellando con pintura en cada uno de sus extremos, para luego ser pesada en la balanza. Asumiendo que esta muestra control tiene la misma humedad que el promedio de las probetas a y b, se calcula su peso final (peso seco al horno) despejando esta variable de la fórmula de humedad anterior, tal como se observa en la figura.
+            .col-lg-7.py-4
+              div.formula.d-flex.justify-content-center.align-items-center
+                span.fw-bold.font-color-acento-contenido Peso Final "calculado" = 
+                .fraction
+                  span.fup 100 X Peso Inicial
+                  span.bar /
+                  span.fdn Contenido de Humedad promedio de a y b + 100
+        
+          .row.justify-content-center(titulo="Contenido de humedad calculado")
+            .col-lg-3.mb-4
+              p Se puede saber el contenido de humedad de la muestra control de secado conforme se vaya secando la muestra en la carga del horno, ya que es posible calcular en cualquier momento el contenido de humedad de la muestra, solamente determinando su peso actual y calculando con la fórmula que se observa en la figura.
+            .col-lg-7.py-4
+              div.formula.d-flex.justify-content-center.align-items-center
+                span.fw-bold.font-color-acento-contenido contenido de Humedad Actual(%) = 
+                .fraction
+                  span.fup Peso diario - Peso Final "calculado"
+                  span.bar /
+                  span.fdn Peso Final "calculado"
+                span x 100%
+
+          .row.justify-content-center(titulo="Ubicación de las muestras de secado")
+            .col-lg-3.mb-4
+              p Las muestras deben ser   distribuidas en sitios adecuados de la cámara. Para controlar el proceso, se pesan cada cierto tiempo, según lo requiera la intensidad del avance del secado. En general, es suficiente con realizar un pesaje por día. Todo el proceso debe ir consignado en la tabla de registro, la cual debe contener fecha, peso de la muestra, contenido de humedad calculado.
+            .col-lg-7
+                img.m-auto.img-fluid.img450(src='@/assets/curso/tema1/t03.svg', alt='Ubicación de las muestras de secado')
+
+    .row.justify-content-center
+      .col-10
+        .tarjeta.bg-archivo.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/tema1/img08.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0.text-white
+                  h3.mb-1 Gravimétricos
+                  p.text-small Comprendido el método gravimétrico, es importante conocer, a manera de ejemplo, el uso de las fórmulas que se necesitan para medir el contenido de humedad en la madera.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Ejemplo_Gravimetricos.pdf')" target="_blank" type="application/pdf")
+                    span Descargar
+                    i.fas.fa-file-download                
 </template>
 
 <script>
