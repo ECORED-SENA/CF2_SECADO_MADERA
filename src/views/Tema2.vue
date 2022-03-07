@@ -26,7 +26,7 @@
             .lista-ol--cuadro__vineta
               span 2
             p 
-              strong 2.	Durante el secado: 
+              strong Durante el secado: 
               | el operador deberá conocer la especie y carga de madera a secar, por tanto, debe encender el horno y operar el controlador, el cual puede ser operado  de forma automática, semiautomática o manual. Este  proceso, con el fin de conservar las condiciones climáticas adecuadas para el secado de la carga, deberá estar atento a cualquier incremento de temperatura y humedad en la cámara de secado y, pasado un tiempo, debe supervisar si han aparecido defectos en la madera, esto lo hace realizando ingresos  periódicos a la cámara de secado, donde verificará el proceso.
           li
       .col-12.col-lg-4
@@ -51,7 +51,8 @@
           .tarjeta.tarjeta-flip.bg-tarjeta-flip-rosa(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
-              .tarjeta-flip__img(:style="{'padding':'10px','background-image': `url(${require('@/assets/curso/tema2/f01.svg')})`}")
+              .tarjeta-flip__img.d-flex.justify-content-center.align-items-end(:style="{'padding':'10px','background-image': `url(${require('@/assets/curso/tema2/f01.svg')})`}")
+                h4.fw-bold Fuerte o acelerado
               .tarjeta-flip__contenido.p-4.p-xl-5
                 h4 Fuerte o acelerado
                 p Secado rápido a temperaturas altas, de 50ºC a 70ºC. Se usa para maderas con poca tendencia a defectos, sin inclusiones y espesores menores (de ¾” a 1”). Permite temperaturas altas y humedades relativas bajas, con cambios fuertes y frecuentes. Se utiliza para las maderas latifoliadas de secado fácil, de baja densidad, como el caracolí, el carbonero y la ceiba bonga.
@@ -60,7 +61,8 @@
           .tarjeta.tarjeta-flip.bg-tarjeta-flip-naranja(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
-              .tarjeta-flip__img(:style="{'padding':'10px','background-image': `url(${require('@/assets/curso/tema2/f01.svg')})`}")
+              .tarjeta-flip__img.d-flex.justify-content-center.align-items-end(:style="{'padding':'10px','background-image': `url(${require('@/assets/curso/tema2/f02.svg')})`}")
+                h4.fw-bold Suave o lento
               .tarjeta-flip__contenido.p-4.p-xl-5
                 h4 Suave o lento
                 p Secado lento a temperaturas bajas (40ºC a 60ºC). Se usa para maderas de difícil secado, con tendencia a defectos y con inclusiones. Ejemplos: el güino, el sajo y la sangre de toro.
@@ -69,7 +71,8 @@
           .tarjeta.tarjeta-flip.bg-tarjeta-flip-amarilla(@mouseover="indicadorTarjetaFlip = false")
             .indicador--hover(v-if="indicadorTarjetaFlip")
             .tarjeta-flip__contenedor
-              .tarjeta-flip__img(:style="{'padding':'10px','background-image': `url(${require('@/assets/curso/tema2/f01.svg')})`}")
+              .tarjeta-flip__img.d-flex.justify-content-center.align-items-end(:style="{'padding':'10px','background-image': `url(${require('@/assets/curso/tema2/f03.svg')})`}")
+                h4.fw-bold Moderado
               .tarjeta-flip__contenido.p-4.p-xl-5
                 h4 Moderado
                 p Programa intermedio entre los dos anteriores, a una temperatura de 45ºC a 65ºC, requiere temperaturas bajas, humedades relativas altas y mayores tiempos en cada paso del programa: se utiliza para maderas latifoliadas duras, de alta densidad, que son más difíciles de secar, como el tangare, el dormilón y el pantano. (Arango, 1990).

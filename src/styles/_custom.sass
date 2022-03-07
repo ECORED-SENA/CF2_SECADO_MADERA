@@ -75,14 +75,18 @@
   background-color: #FDFAD6 !important
 
 .tarjeta-flip__img
+  cursor: pointer !important
   background-position: center  
-  background-size: 80%
+  background-size: 50%
   background-repeat: no-repeat
   @media screen and (max-width: 1200px)
-    background-size: 50%
+    background-size: 35%
   @media screen and (max-width: 767px)
     background-size: 30%
 
+.tarjeta-flip__contenido
+  @media screen and (max-width: 767px)
+    height: 300px
 
 .bg-tarjeta-tab
   background-color: rgba($color-primario, 0.15)
