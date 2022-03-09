@@ -7,7 +7,7 @@
         span 2
       h1 Manuales técnicos
 
-    .cajon.color-acento-contenido.bg-color-acento-contenido-o25.p-4.mb-4
+    .cajon.color-acento-contenido.bg-cajon-texto.p-4.mb-4
       p Los manuales técnicos de operación de secado tienen la finalidad de proporcionar al operador de los hornos o cámaras de secado las pautas de configuración y la lógica con la que se debe desarrollar el proceso.
       p Cada equipo debe tener un manual técnico, sin embargo, a manera general, con todos los procesos es indispensable revisar los siguientes pasos.
 
@@ -104,6 +104,8 @@
 
           #t_2_2.titulo-segundo.color-acento-contenido
             h2 2.2 Técnicas de operación y variables de secado  
+
+          p.my-4 El inicio de las operaciones en un proceso de secado comienza con la elección del programa de secado, de acuerdo con las características de especie, espesor y contenido de humedad inicial; posteriormente, se debe cumplir con el siguiente proceso:
 
           .col-12.position-relative
             TabsA.color-acento-contenido

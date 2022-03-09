@@ -11,7 +11,7 @@
     .row.g-4
       .col-12.col-lg-3
         p Cuando se desea escoger un proceso de secado de madera es importante conocer el contenido de humedad de la pieza y su densidad, por tanto, es importante ahondar en estos dos aspectos.
-        p En la siguiente figura, se puede identificar el contenido de humedad en el que las fibras de la madera están
+        p En la siguiente figura, se puede identificar el contenido de humedad en el que las fibras de la madera están.
       
       .col-12.col-lg-9
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -132,31 +132,40 @@
         br
         br
         .tarjeta.tarjeta.p-4.mb-5
-          h4.text-center.titulo-cuarto.font-color-acento-contenido Relación madera - humedad
-          SlyderA
-            .row.justify-content-center.my-4.p-2
-              .col-10.bg-slydera
-                img.m-auto.img450(src='@/assets/curso/tema1/s01.svg', alt='Texto que describa la imagen')
-                br
-                h4.text-center Los electrodos se introducen en la madera
-            .row.justify-content-center.my-4.p-2
-              .col-10.bg-slydera
-                img.m-auto.img450(src='@/assets/curso/tema1/s02.svg', alt='Texto que describa la imagen')
-                br
-                h4.text-center Las lecturas se obtienen en un dial previamente calibrado
+          h4.text-center.titulo-cuarto.font-color-acento-contenido.mb-1 Relación madera - humedad
+          h6.text-center.titulo-cuarto.font-color-acento-contenido Determinación de contenido de humedad mediante Xilohigrómetro.
           
-            .row.justify-content-center.my-4.p-2
-              .col-10.bg-slydera
-                img.m-auto.img160.img-fluid(src='@/assets/curso/tema1/s03.svg', alt='Texto que describa la imagen')
-                br
-                h4.text-center a) La determinación del gradiente de humedad puede hacerse midiendo la humedad en una cara y luego en un extremo recién cortado.
+          SlyderA
+            .row.d-flex.justify-content-center.align-items-center.my-4.p-2
+              .col-10.bg-slydera.d-flex.justify-content-center.align-items-center
+                .row.g-4
+                  .col-12
+                    img.m-auto.img450(src='@/assets/curso/tema1/s01.svg', alt='Texto que describa la imagen')
+                  .col-12
+                    h5.text-center Los electrodos se introducen en la madera
+            .row.d-flex.justify-content-center.align-items-center.my-4.p-2
+              .col-10.bg-slydera.d-flex.justify-content-center.align-items-center
+                .row.g-4
+                  .col-12
+                    img.m-auto.img450(src='@/assets/curso/tema1/s02.svg', alt='Texto que describa la imagen')
+                  .col-12
+                    h5.text-center Las lecturas se obtienen en un dial previamente calibrado
+          
+            .row.d-flex.justify-content-center.align-items-center.my-4.p-2
+              .col-10.bg-slydera.d-flex.justify-content-center.align-items-center
+                .row.g-4
+                  .col-12
+                    img.m-auto.img160.img-fluid(src='@/assets/curso/tema1/s03.svg', alt='Texto que describa la imagen')
+                  .col-12
+                    h5.text-center a) La determinación del gradiente de humedad puede hacerse midiendo la humedad en una cara y luego en un extremo recién cortado.
 
-
-            .row.justify-content-center.my-4.p-2
-              .col-10.bg-slydera
-                img.m-auto.img450.img-fluid(src='@/assets/curso/tema1/s04.svg', alt='Texto que describa la imagen')
-                br
-                h4.text-center b) Utilizando electrodos que se introducen a diferente profundidad.
+            .row.d-flex.justify-content-center.align-items-center.my-4.p-2
+              .col-10.bg-slydera.d-flex.justify-content-center.align-items-center
+                .row.g-4
+                  .col-12
+                    img.m-auto.img450.img-fluid(src='@/assets/curso/tema1/s04.svg', alt='Texto que describa la imagen')
+                  .col-12
+                    h5.text-center b) Utilizando electrodos que se introducen a diferente profundidad.
         separador
 
         #t_1_3.titulo-segundo.color-acento-contenido

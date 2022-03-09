@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Proceso de secado industrial de la madera',
     descripcionCurso:
-      'La madera es un material que absorbe o pierde agua según las condiciones ambientales donde esté depositada la pieza, esta humedad resulta potencialmente dañina, pues causa pudrimiento, aparición de hongos, ataque de insectos, acabando con el deterioro de esta. Considerar los métodos de secado industrial, dependiendo de la especie, el clima y el producto final, permitirá controlar parámetros de humedad, ventilación y temperatura con los programas de secado, lo que ayudará a obtener un material estable, resistente y óptimo para emplearse en el fin para el cual fue secada',
+      'La madera, un material que absorbe o pierde agua según condiciones ambientales donde esté la pieza, esta humedad resulta potencialmente dañina, causa pudrimiento, aparición de hongos, ataque de insectos, acabando en deterioro. Considerar los métodos de secado industrial, dependiendo de la especie, el clima y el producto final, permitirá controlar la humedad, ventilación y temperatura con los programas de secado.',
     imagenBannerPrincipal: require('@/assets/curso/banner/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/banner/fondo-banner-principal.png'),
   },
