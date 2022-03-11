@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.introduccion
+.curso-main-container.introduccion.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones

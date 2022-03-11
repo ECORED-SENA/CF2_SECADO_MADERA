@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -26,7 +26,7 @@
         br
         .row.mb-5
           .col.col-12.col-lg-5
-            h4 El agua en la madera puede encontrarse de tres formas:
+            h4.mt-3 El agua en la madera puede encontrarse de tres formas:
             ul.lista-ul--color
               li
                 i.fas.fa-atom
@@ -89,7 +89,7 @@
         br
         .row
           .col-12.col-lg-6
-            p El secado convencional también se conoce como secado con intercambio de aire húmedo y aire seco, y se efectúa cuando el aire que está en el interior de la cámara es calentado y obligado a circular por medio de ventiladores, para que así este pase a través de la pila de madera, absorbiendo la humedad de la madera. El aire, una vez que se encuentre saturado de agua, debe ser extraído de la cámara, para introducir aire fresco con menor humedad, y continuar con el proceso.
+            p.lh-lg El secado convencional también se conoce como secado con intercambio de aire húmedo y aire seco, y se efectúa cuando el aire que está en el interior de la cámara es calentado y obligado a circular por medio de ventiladores, para que así este pase a través de la pila de madera, absorbiendo la humedad de la madera. El aire, una vez que se encuentre saturado de agua, debe ser extraído de la cámara, para introducir aire fresco con menor humedad, y continuar con el proceso.
           .col-12.col-lg-6
             .bloque-texto-c.bg-color-tarjeta.p-4
               i.fas.fa-quote-right
@@ -108,8 +108,8 @@
         #t_1_2.titulo-segundo.color-acento-contenido
           h2 1.2 Xilohigrómetro
 
-        p Es primordial, en los procesos de industrialización de la madera, conocer el porcentaje de humedad contenido en las piezas, ya que la madera es un material higroscópico, que gana o pierde humedad con el ambiente hasta llegar a un punto de equilibrio. La medición del contenido de humedad se puede realizar por varios métodos, uno de ellos son los denominados eléctricos, que tienen su asiento en las diferentes propiedades eléctricas tanto de la madera seca como de la madera húmeda. Si bien existen otros, los métodos eléctricos más utilizados son los que se basan en la resistencia que ofrece la madera al paso de una corriente eléctrica continua, siendo uno de los más empleados.
-
+        p.lh-lg Es primordial, en los procesos de industrialización de la madera, conocer el porcentaje de humedad contenido en las piezas, ya que la madera es un material higroscópico, que gana o pierde humedad con el ambiente hasta llegar a un punto de equilibrio. La medición del contenido de humedad se puede realizar por varios métodos, uno de ellos son los denominados eléctricos, que tienen su asiento en las diferentes propiedades eléctricas tanto de la madera seca como de la madera húmeda. Si bien existen otros, los métodos eléctricos más utilizados son los que se basan en la resistencia que ofrece la madera al paso de una corriente eléctrica continua, siendo uno de los más empleados.
+        br
       .col-12.col-lg-6
         img.img250.m-auto(src='@/assets/curso/tema1/img06.svg', alt='Xilohigrómetro', class='img-fluid')
 
@@ -118,7 +118,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img07.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.d-flex.align-items-center
             p.mb-0 Los xilohigrómetros, como su nombre lo indica (
               i xilo 
               | = madera; 

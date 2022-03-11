@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno(icono="fas fa-tasks" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     

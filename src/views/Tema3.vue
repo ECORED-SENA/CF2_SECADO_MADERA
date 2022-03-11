@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
@@ -77,47 +77,47 @@
             .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 h4 Uso de equipos y máquinas
-                p Tener encendidos estos aparatos únicamente el tiempo requerido por la operación, para evitar contaminación atmosférica
+                p Tener encendidos estos aparatos únicamente el tiempo requerido por la operación, para evitar contaminación atmosférica.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/imgt06.svg', alt='Uso de equipos y máquinas')
+    .bg-3_1.py-4
+      .row.mb-4
+        .col-12
+          #t_3_1.titulo-segundo.color-acento-contenido
+            h2 3.1 Emisión de gases
 
-    .row.my-4.bg-3_1
-      .col-12
-        #t_3_1.titulo-segundo.color-acento-contenido
-          h2 3.1 Emisión de gases
+          p.px-4 Poder garantizar una producción lo más sostenible posible y que pueda tener el menor impacto ambiental es el objetivo de la normatividad ambiental. Cuando se habla de contaminación atmosférica, se refiere a la presencia en el aire de pequeñas partículas o productos secundarios gaseosos que pueden implicar riesgo o daño a los seres vivos expuestos a dicho ambiente.
 
-        p.px-4 Poder garantizar una producción lo más sostenible posible y que pueda tener el menor impacto ambiental es el objetivo de la normatividad ambiental. Cuando se habla de contaminación atmosférica, se refiere a la presencia en el aire de pequeñas partículas o productos secundarios gaseosos que pueden implicar riesgo o daño a los seres vivos expuestos a dicho ambiente.
+          .row.my-5.justify-content-center
+            .col.col-10.col-md-4.mt-4
+              h4 Normatividad ambiental
+              picture
+                img.img250(src='@/assets/curso/tema3/img03.svg', alt='Emisión de gases', class='img-fluid')
+            .col.col-10.col-md-6.justi.mt-4
+              img.img160.m-auto(src='@/assets/curso/tema3/img04.svg', alt='Compuestos contaminantes', class='img-fluid')
+              p.fw-bold.pt-2 Durante el proceso de secado industrial de la madera, se generan una serie de compuestos contaminantes a la atmósfera por una fuente fija de emisión.
+              p Las normas para la protección de la calidad del aire en Colombia abarcan:
 
-        .row.my-5.justify-content-center
-          .col.col-10.col-md-4.mt-4
-            h4 Normatividad ambiental
-            picture
-              img.img250(src='@/assets/curso/tema3/img03.svg', alt='Emisión de gases', class='img-fluid')
-          .col.col-10.col-md-6.justi.mt-4
-            img.img160.m-auto(src='@/assets/curso/tema3/img04.svg', alt='Compuestos contaminantes', class='img-fluid')
-            p.fw-bold Durante el proceso de secado industrial de la madera, se generan una serie de compuestos contaminantes a la atmósfera por una fuente fija de emisión.
-            p Las normas para la protección de la calidad del aire en Colombia abarcan:
-
-            ul.lista-ul--color
-              li
-                i.fas.fa-atom
-                | Calidad del aire
-              li
-                i.fas.fa-atom
-                | Emisión o descarga de contaminantes al aire
-              li
-                i.fas.fa-atom
-                | Emisión de ruido
-              li
-                i.fas.fa-atom
-                | Ruido ambiental
-              li
-                i.fas.fa-atom
-                | Evaluación y emisión de olores ofensivos
-        
-        p.fw-bold.text-center Cada norma tiene los estándares o límites permisibles de emisión para cada contaminante.
-        p.text-center Por ejemplo, la norma de calidad del aire ambiente es la  Resolución 2254 de 2017, la cual establece los niveles máximos permisibles de contaminantes criterio: material particulado (PM10 y PM2.5), dióxido de azufre (SO2), dióxido de nitrógeno (NO2), ozono troposférico (O3) y monóxido de carbono (CO). (IDEAM-SIAC, s. f.)
+              ul.lista-ul--color
+                li
+                  i.fas.fa-atom
+                  | Calidad del aire
+                li
+                  i.fas.fa-atom
+                  | Emisión o descarga de contaminantes al aire
+                li
+                  i.fas.fa-atom
+                  | Emisión de ruido
+                li
+                  i.fas.fa-atom
+                  | Ruido ambiental
+                li
+                  i.fas.fa-atom
+                  | Evaluación y emisión de olores ofensivos
+          
+          p.fw-bold.text-center Cada norma tiene los estándares o límites permisibles de emisión para cada contaminante.
+          p.text-center Por ejemplo, la norma de calidad del aire ambiente es la  Resolución 2254 de 2017, la cual establece los niveles máximos permisibles de contaminantes criterio: material particulado (PM10 y PM2.5), dióxido de azufre (SO2), dióxido de nitrógeno (NO2), ozono troposférico (O3) y monóxido de carbono (CO). (IDEAM-SIAC, s. f.)
 
     .row.my-4
       .col-12

@@ -1,5 +1,5 @@
 <template lang="pug">
-.curso-main-container.pb-3
+.curso-main-container.pb-3.animated.fadeIn
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
@@ -141,8 +141,8 @@
                 picture
                   img(src='@/assets/curso/tema2/img03.png', alt='Variables del secado', class='img-fluid')
               .col.col-12.col-md-6
-                h4 Variables del secado
-                p Las variables de control del secado determinan el tiempo y la forma de secado dentro de la cámara.  La verificación de las sondas de temperatura, humedad relativa, humedad de equilibrio higroscópico, gradiente de secado y contenido de humedad final de la madera debe ser una práctica permanente y minuciosa. La cantidad de variables de control se modifica dependiendo del fabricante del horno. Durante los procesos, es recomendable disponer de instrumentos o sistemas que permitan la calibración periódica de las sondas de medición, para garantizar la calidad del producto.
+                h4.mt-3 Variables del secado
+                p.lh-lg Las variables de control del secado determinan el tiempo y la forma de secado dentro de la cámara.  La verificación de las sondas de temperatura, humedad relativa, humedad de equilibrio higroscópico, gradiente de secado y contenido de humedad final de la madera debe ser una práctica permanente y minuciosa. La cantidad de variables de control se modifica dependiendo del fabricante del horno. Durante los procesos, es recomendable disponer de instrumentos o sistemas que permitan la calibración periódica de las sondas de medición, para garantizar la calidad del producto.
 
           .col-12.my-4
             p En el siguiente video, se puede conocer un ejemplo de cómo funciona en una empresa real el controlador de secado de madera
@@ -156,7 +156,8 @@
               .col.col-12.col-md-5.p-0
                 #t_2_3.titulo-segundo.color-acento-contenido.mb-4
                   h2 2.3 Procedimientos de almacenamiento 
-                p Cuando la madera ha pasado por el proceso de secado y es extraída del horno, debe ser apilada nuevamente  y estará disponible para su uso. El proceso  de almacenamiento se debe efectuar  en un lugar bajo techo,  cerrado y  que disponga de  buena ventilación, ya que,  si es apilada en un sitio cerrado, la variación de la humedad será mínima. Si el apilado se da por varios meses, es recomendable tener las piezas en un lugar donde se pueda controlar la humedad de equilibrio, de lo contrario, se presentará variación en la pila dependiendo del lugar, por ejemplo, en  sitios secos, perderá humedad, y en lugares húmedos, aumentará el nivel de agua en las piezas.
+                br                  
+                p.lh-base.pt-1 Cuando la madera ha pasado por el proceso de secado y es extraída del horno, debe ser apilada nuevamente  y estará disponible para su uso. El proceso  de almacenamiento se debe efectuar  en un lugar bajo techo,  cerrado y  que disponga de  buena ventilación, ya que,  si es apilada en un sitio cerrado, la variación de la humedad será mínima. Si el apilado se da por varios meses, es recomendable tener las piezas en un lugar donde se pueda controlar la humedad de equilibrio, de lo contrario, se presentará variación en la pila dependiendo del lugar, por ejemplo, en  sitios secos, perderá humedad, y en lugares húmedos, aumentará el nivel de agua en las piezas.
               .col.col-12.col-md-7
                 picture
                   img(src='@/assets/curso/tema2/img04.jpg', alt='Procedimientos de almacenamiento', class='img-fluid')
@@ -165,11 +166,12 @@
               .bloque-texto-g__img(
                 :style="{'background-image': `url(${require('@/assets/curso/tema2/img05.jpg')})`}"
               )
-              .bloque-texto-g__texto.p-4
-                p.mb-0 Apilado de madera seca
-                br
-                br
-                p.mb-0 El apilamiento debe realizarse de manera horizontal, con separadores para evitar acumulación de humedad, debe cubrirse con un plástico y verificar constantemente la humedad y que no sea atacada por insectos.
+              .bloque-texto-g__texto.p-4.d-flex.align-items-center
+                div
+                  p.mb-0.fw-bold Apilado de madera seca.
+                  br
+                  br
+                  p.mb-0 El apilamiento debe realizarse de manera horizontal, con separadores para evitar acumulación de humedad, debe cubrirse con un plástico y verificar constantemente la humedad y que no sea atacada por insectos.
 
 </template>
 

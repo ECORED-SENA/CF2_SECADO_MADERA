@@ -288,14 +288,37 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: [
-          'Carmen Alicia Martínez Torres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'Lady Adriana Ariza Luque',
-          'Laura Ximena Hurtado Villalba',
-          'Rosa Milena Gómez Caballero',
-          'Wilson Andrés Arenales Caceres',
-        ],
+        nombre: ['Carmen Alicia Martínez Torres'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Gilberto Junior Rodriguez Rodriguez'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Lady Adriana Ariza Luque'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Laura Ximena Hurtado Villalba'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Rosa Milena Gómez Caballero'],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: ['Wilson Andrés Arenales Caceres'],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
