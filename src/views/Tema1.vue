@@ -30,13 +30,13 @@
             ul.lista-ul--color
               li
                 i.fas.fa-atom
-                | Agua libre: Es el agua que es más fácil de extraer de la madera, pues es aquella que está almacenada en las cavidades de las células.
+                | Agua libre: es el agua que es más fácil de extraer de la madera, pues es aquella que está almacenada en las cavidades de las células.
               li
                 i.fas.fa-atom
-                | Agua higroscópica: Esta agua se encuentra en las paredes de las células, por tanto, para realizar su extracción, se requiere de más energía.
+                | Agua higroscópica: esta agua se encuentra en las paredes de las células, por tanto, para realizar su extracción, se requiere de más energía.
               li
                 i.fas.fa-atom
-                | Agua de constitución: El agua de constitución hace parte de la estructura molecular de la madera y la única forma de extraerla es mediante el proceso de combustión de la madera.
+                | Agua de constitución: el agua de constitución hace parte de la estructura molecular de la madera y la única forma de extraerla es mediante el proceso de combustión de la madera.
           .col.col-12.col-lg-7
             picture
               img(src='@/assets/curso/tema1/img02.png', alt='El agua en la madera', class='img-fluid')
@@ -59,8 +59,8 @@
           h2 1.1 Cámaras
         .row.mb-5
           .col.col-12.col-md-4
-            h4 Antes de examinar qué son las cámaras de secado, es preciso subrayar que el proceso aplicado debe cumplir los siguientes requerimientos generales 
-            ul.lista-ul--color
+            h4 Antes de examinar qué son las cámaras de secado, es preciso subrayar que el proceso aplicado debe cumplir los siguientes requerimientos generales:
+            ul.lista-ul--color.mt-5.lh-base
               li
                 i.fas.fa-atom
                 | El contenido final de humedad de la madera seca debe corresponder a la humedad de equilibrio del ambiente donde se utilizará la madera.
@@ -100,7 +100,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img05.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.d-flex.align-items-center.w-65
             p.mb-0 Hay que mencionar que las instalaciones para secar madera deben tener un buen aislamiento térmico, ser de construcción hermética, fabricarse de materiales resistentes a la corrosión y elevadas temperaturas, y disponer de puertas de fácil manejo y cierre hermético, así como estar provistas de un sistema de humectación para las piezas de madera, También deben poseer  un drenaje interior para la evacuación del agua eliminada durante el secado, producto de la evaporación del agua de la madera y/o de los tratamientos humectantes.
 
     .row.my-4.g-4.justify-content-center
@@ -118,7 +118,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img07.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4.d-flex.align-items-center
+          .bloque-texto-g__texto.p-4.d-flex.align-items-center.w-65
             p.mb-0 Los xilohigrómetros, como su nombre lo indica (
               i xilo 
               | = madera; 
@@ -176,24 +176,24 @@
 
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-tarjeta-acordion")
           .row.justify-content-center(titulo="Control del proceso de secado")
-            .col-lg-3.mb-4
-              p Deben utilizarse dos tipos diferentes de piezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
-            .col-lg-7
-                img.m-auto.img-fluid.img450(src='@/assets/curso/tema1/t01.svg', alt='Control del proceso de secado')
-                figcaption.text-center Preparación de muestras de control de humedad
+            .col-lg-4.mb-4
+              p.ms-5 De ezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
+            .col-lg-7.ms-4
+                img.img-fluid.img650(src='@/assets/curso/tema1/t01.svg', alt='Control del proceso de secado')
+                figcaption.bg-light Preparación de muestras de control de humedad
 
           .row.justify-content-center(titulo="Limpieza y pesaje")
-            .col-lg-3.mb-4
-              p Después del corte, deben limpiarse y pesarse de forma inmediata  las probetas a y b, buscando no alterar los resultados. Se recomienda utilizar, para la medición del peso, una balanza electrónica de plato, con precisión de al menos 1 g, la cual se sugiere que esté ubicada cerca del horno de secado, tal como se puede observar en la siguiente figura.
-            .col-lg-7
-                img.m-auto.img-fluid.img450(src='@/assets/curso/tema1/t02.svg', alt='Limpieza y pesaje')
+            .col-lg-4.mb-4
+              p.ms-5 Después del corte, deben limpiarse y pesarse de forma inmediata  las probetas a y b, buscando no alterar los resultados. Se recomienda utilizar, para la medición del peso, una balanza electrónica de plato, con precisión de al menos 1 g, la cual se sugiere que esté ubicada cerca del horno de secado, tal como se puede observar en la siguiente figura.
+            .col-lg-7.ms-4
+                img.img-fluid.img650(src='@/assets/curso/tema1/t02.svg', alt='Limpieza y pesaje')
         
           .row.justify-content-center(titulo="Calcular la humedad")
-            .col-lg-3.mb-4
-              p Se ubican las probetas en la estufa y se procede a su secado a una temperatura de 103 +/- 2°C, hasta que su peso no varíe, calculando el contenido de humedad con la siguiente fórmula:
-            .col-lg-7.py-4
+            .col-lg-4.mb-4
+              p.ms-5 Se ubican las probetas en la estufa y se procede a su secado a una temperatura de 103 +/- 2°C, hasta que su peso no varíe, calculando el contenido de humedad con la siguiente fórmula:
+            .col-lg-7.py-4.ms-4
               div.formula.d-flex.justify-content-center.align-items-center
-                span.fw-bold.font-color-acento-contenido contenido de humedad (%) = 
+                span.fw-bold.font-color-acento-contenido Contenido de humedad (%) = 
                 .fraction
                   span.fup Peso Inicial - Peso Final
                   span.bar /
@@ -201,9 +201,9 @@
                 span x 100%
 
           .row.justify-content-center(titulo="Sellado de la muestra de control o testigo")
-            .col-lg-3.mb-4
-              p Simultáneamente, la muestra de control o testigo se va sellando con pintura en cada uno de sus extremos, para luego ser pesada en la balanza. Asumiendo que esta muestra control tiene la misma humedad que el promedio de las probetas a y b, se calcula su peso final (peso seco al horno) despejando esta variable de la fórmula de humedad anterior, tal como se observa en la figura.
-            .col-lg-7.py-4
+            .col-lg-4.mb-4
+              p.ms-5 Simultáneamente, la muestra de control o testigo se va sellando con pintura en cada uno de sus extremos, para luego ser pesada en la balanza. Asumiendo que esta muestra control tiene la misma humedad que el promedio de las probetas a y b, se calcula su peso final (peso seco al horno) despejando esta variable de la fórmula de humedad anterior, tal como se observa en la figura.
+            .col-lg-7.py-4.ms-4
               div.formula.d-flex.justify-content-center.align-items-center
                 span.fw-bold.font-color-acento-contenido Peso Final "calculado" = 
                 .fraction
@@ -212,11 +212,11 @@
                   span.fdn Contenido de Humedad promedio de a y b + 100
         
           .row.justify-content-center(titulo="Contenido de humedad calculado")
-            .col-lg-3.mb-4
-              p Se puede saber el contenido de humedad de la muestra control de secado conforme se vaya secando la muestra en la carga del horno, ya que es posible calcular en cualquier momento el contenido de humedad de la muestra, solamente determinando su peso actual y calculando con la fórmula que se observa en la figura.
-            .col-lg-7.py-4
+            .col-lg-4.mb-4
+              p.ms-5 Se puede saber el contenido de humedad de la muestra control de secado conforme se vaya secando la muestra en la carga del horno, ya que es posible calcular en cualquier momento el contenido de humedad de la muestra, solamente determinando su peso actual y calculando con la fórmula que se observa en la figura.
+            .col-lg-7.py-4.ms-4
               div.formula.d-flex.justify-content-center.align-items-center
-                span.fw-bold.font-color-acento-contenido contenido de Humedad Actual(%) = 
+                span.fw-bold.font-color-acento-contenido Contenido de Humedad Actual(%) = 
                 .fraction
                   span.fup Peso diario - Peso Final "calculado"
                   span.bar /
@@ -224,10 +224,10 @@
                 span x 100%
 
           .row.justify-content-center(titulo="Ubicación de las muestras de secado")
-            .col-lg-3.mb-4
-              p Las muestras deben ser   distribuidas en sitios adecuados de la cámara. Para controlar el proceso, se pesan cada cierto tiempo, según lo requiera la intensidad del avance del secado. En general, es suficiente con realizar un pesaje por día. Todo el proceso debe ir consignado en la tabla de registro, la cual debe contener fecha, peso de la muestra, contenido de humedad calculado.
-            .col-lg-7
-                img.m-auto.img-fluid.img450(src='@/assets/curso/tema1/t03.svg', alt='Ubicación de las muestras de secado')
+            .col-lg-4.mb-4
+              p.ms-5 Las muestras deben ser   distribuidas en sitios adecuados de la cámara. Para controlar el proceso, se pesan cada cierto tiempo, según lo requiera la intensidad del avance del secado. En general, es suficiente con realizar un pesaje por día. Todo el proceso debe ir consignado en la tabla de registro, la cual debe contener fecha, peso de la muestra, contenido de humedad calculado.
+            .col-lg-7.ms-4
+                img.img-fluid.img650(src='@/assets/curso/tema1/t03.svg', alt='Ubicación de las muestras de secado')
 
     .row.justify-content-center
       .col-10

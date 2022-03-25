@@ -130,31 +130,31 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Arango, A. (1990). Secado de la madera. SENA',
+      referencia: 'Arango, A. (1990). Secado de la madera. SENA. ',
       link:
         'https://repositorio.sena.edu.co/bitstream/11404/4888/1/Secado_madera.pdf',
     },
     {
       referencia:
-        'Arbeláez, J. y Feria, V. (2003). Diseño y construcción de una cámara para el secado de la madera. Corporación Universitaria Tecnológica de Bolívar',
+        'Arbeláez, J. y Feria, V. (2003). Diseño y construcción de una cámara para el secado de la madera. Corporación Universitaria Tecnológica de Bolívar. ',
       link: 'https://biblioteca.utb.edu.co/notas/tesis/0010740.pdf',
     },
     {
       referencia:
-        'Centro de Innovación Tecnológico de la Madera [CITEmadera]. (2009). Guía de Contenidos “Técnicas de Secado de la Madera”',
+        'Centro de Innovación Tecnológico de la Madera [CITEmadera]. (2009). Guía de Contenidos “Técnicas de Secado de la Madera”. ',
     },
     {
       referencia:
-        'Del Valle, H. (2019). 5 fases del secado de madera industrial que debes conocer. Maquinaria y Maderas.',
+        'Del Valle, H. (2019). 5 fases del secado de madera industrial que debes conocer. Maquinaria y Maderas. ',
       link: 'https://maquinariaymaderas.com/secado-de-madera-industrial/',
     },
     {
-      referencia: 'IDEAM-SIAC. (s. f.). Calidad de Aire. SIAC',
+      referencia: 'IDEAM-SIAC. (s. f.). Calidad de Aire. SIAC. ',
       link: 'http://www.siac.gov.co/calidadaire',
     },
     {
       referencia:
-        'Muñoz-Acosta, F. (2012). Serie: Madera para construcción Secado de la madera aserrada. Revista Forestal Mesoamericana Kurú, 5(13), p. 58–63',
+        'Muñoz-Acosta, F. (2012). Serie: Madera para construcción Secado de la madera aserrada. Revista Forestal Mesoamericana Kurú, 5(13), p. 58–63. ',
       link: 'https://revistas.tec.ac.cr/index.php/kuru/article/view/477',
     },
     {
@@ -243,18 +243,18 @@ export default {
       },
       {
         nombre: 'Erika Barrera Montañez',
-        cargo: 'Experta Temática',
+        cargo: 'Experta temática',
         centro:
           'Centro para el Desarrollo Rural y Minero CEDRUM Regional Norte de Santander',
       },
       {
         nombre: 'Beatriz Eugenia Agudelo Vásquez',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial Regional - Distrito Capital',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
+        cargo: 'Revisor metodológico y pedagógico',
         centro: 'Centro de Gestión Industrial Regional - Distrito Capital',
       },
       {

@@ -145,7 +145,7 @@
                 p.lh-lg Las variables de control del secado determinan el tiempo y la forma de secado dentro de la cámara.  La verificación de las sondas de temperatura, humedad relativa, humedad de equilibrio higroscópico, gradiente de secado y contenido de humedad final de la madera debe ser una práctica permanente y minuciosa. La cantidad de variables de control se modifica dependiendo del fabricante del horno. Durante los procesos, es recomendable disponer de instrumentos o sistemas que permitan la calibración periódica de las sondas de medición, para garantizar la calidad del producto.
 
           .col-12.my-4
-            p En el siguiente video, se puede conocer un ejemplo de cómo funciona en una empresa real el controlador de secado de madera
+            p En el siguiente video, se puede conocer un ejemplo de cómo funciona en una empresa real el controlador de secado de madera:
             figure
               .video
                 iframe(width='560' height='315' src='https://www.youtube.com/embed/6GXW1k2Q7hM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)

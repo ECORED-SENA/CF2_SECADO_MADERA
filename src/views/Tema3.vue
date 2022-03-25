@@ -25,7 +25,7 @@
     .row.my-4
       .col
         br
-        p.fw-bold.text-center.mb-4 Conozca algunas actividades que pueden ayudar a mejorar el ambiente sin modificar los procesos
+        p.fw-bold.text-center.mb-4 Conozca algunas actividades que pueden ayudar a mejorar el ambiente sin modificar los procesos:
         
         TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Eficiente disposición de los residuos" :icono="require('@/assets/curso/tema3/t01.svg')")
