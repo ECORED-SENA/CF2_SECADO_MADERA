@@ -59,7 +59,7 @@
           h2 1.1 Cámaras
         .row.mb-5
           .col.col-12.col-md-4
-            h4 Antes de examinar qué son las cámaras de secado, es preciso subrayar que el proceso aplicado debe cumplir los siguientes requerimientos generales:
+            h4.pt-3 Antes de examinar qué son las cámaras de secado, es preciso subrayar que el proceso aplicado debe cumplir los siguientes requerimientos generales:
             ul.lista-ul--color.mt-5.lh-base
               li
                 i.fas.fa-atom
@@ -73,7 +73,7 @@
               li
                 i.fas.fa-atom
                 | El secado debe ser lo más rápido y económico posible.
-          .col.col-12.col-md-4
+          .col.col-12.col-md-4.pt-3
             .bloque-texto-c.bg-color-tarjeta.p-4
               i.fas.fa-quote-right
               h4.mb-2 Considerando lo anterior, verá qué son las cámaras u hornos de secado. Cámaras de secado son cuartos herméticos provistos con un sistema de calefacción que habitualmente se trata de radiadores, ventiladores, ventilas, equipo de humidificación y equipos para controlar el clima en el secado. Dentro de esta instalación, se pueden controlar la temperatura y la humedad relativa del aire que circula a través de la madera. El clima artificial permite el secado de la madera hasta el contenido de humedad final deseada.
@@ -84,7 +84,7 @@
       .col-12
         p.text-center Vea en la siguiente figura una cámara de secado y algunas de sus partes.
         br
-        img(src='@/assets/curso/tema1/img04.svg', alt='Cámara de secado y algunas de sus partes', class='img-fluid')
+        img.img850.m-auto(src='@/assets/curso/tema1/img04.svg', alt='Cámara de secado y algunas de sus partes', class='img-fluid')
         br
         br
         .row

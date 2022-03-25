@@ -30,7 +30,7 @@
         TabsB.color-acento-contenido.mb-5
           .py-4.py-md-5(titulo="Eficiente disposición de los residuos" :icono="require('@/assets/curso/tema3/t01.svg')")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.pe-5
                 h4 Eficiente disposición de los residuos
                 p En toda actividad, se generan residuos que, dependiendo de su tipo, deben ser clasificados y dispuestos según la normatividad lo contemple. No disponerlos correctamente afecta negativamente su posterior valorización. Consulte la resolución número 2184 de 2019 (26 de diciembre), por la cual se modifica la Resolución 668 de 2016 sobre uso racional de bolsas plásticas y se adoptan otras disposiciones.
               .col-md-6
@@ -39,7 +39,7 @@
 
           .py-4.py-md-5(titulo="Utilización de productos químicos" :icono="require('@/assets/curso/tema3/t02.svg')")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.pe-5
                 h4 Utilización de productos químicos
                 p En los procesos de inmunizado y tratamiento de la madera, es común utilizar productos químicos, los cuales son altamente tóxicos y deterioran el ambiente. Es necesario, cuando se realiza la compra de este tipo de sustancias, verificar que sean respetuosas con el medio ambiente.
               .col-md-6
@@ -48,7 +48,7 @@
 
           .py-4.py-md-5(titulo="Residuos peligrosos" :icono="require('@/assets/curso/tema3/t03.svg')")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.pe-5
                 h4 Residuos peligrosos
                 p Gestionar de forma correcta y desechar residuos denominados peligrosos según el proceso vigente para el producto. Consulte el Decreto 4741 del 30 de diciembre de 2005, “Por el cual se reglamenta parcialmente la prevención y manejo de los residuos o desechos peligrosos generados en el marco de la gestión integral".
               .col-md-6
@@ -57,7 +57,7 @@
 
           .py-4.py-md-5(titulo="Contaminación de fuentes hídricas" :icono="require('@/assets/curso/tema3/t04.svg')")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.pe-5
                 h4 Contaminación de fuentes hídricas
                 p El vertimiento de sustancias tóxicas, corrosivas o empleadas en los procesos de transformación de la madera a las aguas servidas debe realizarse previa depuración de las sustancias contaminantes. Consulte la Resolución 0631 de 2015, por la cual se establecen los parámetros y los valores límites máximos permisibles en los vertimientos puntuales a cuerpos de aguas superficiales y a los sistemas de alcantarillado público y se dictan otras disposiciones. 
               .col-md-6
@@ -66,7 +66,7 @@
 
           .py-4.py-md-5(titulo="Aprovechar al máximo las materias primas" :icono="require('@/assets/curso/tema3/t05.svg')")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.pe-5
                 h4 Aprovechar al máximo las materias primas
                 p Al realizar cortes, se debe evitar el desperdicio de la madera, y en lo posible, utilizar los desechos en la fabricación de nuevos productos.
               .col-md-6
@@ -75,7 +75,7 @@
 
           .py-4.py-md-5(titulo="Uso de equipos y máquinas" :icono="require('@/assets/curso/tema3/t06.svg')")
             .row.align-items-center
-              .col-md-6.mb-4.mb-md-0
+              .col-md-6.mb-4.mb-md-0.pe-5
                 h4 Uso de equipos y máquinas
                 p Tener encendidos estos aparatos únicamente el tiempo requerido por la operación, para evitar contaminación atmosférica.
               .col-md-6
