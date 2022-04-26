@@ -100,7 +100,7 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img05.jpg')})`}"
           )
-          .bloque-texto-g__texto.p-4.d-flex.align-items-center.w-65
+          .bloque-texto-g__texto.p-4.d-flex.align-items-center
             p.mb-0 Hay que mencionar que las instalaciones para secar madera deben tener un buen aislamiento térmico, ser de construcción hermética, fabricarse de materiales resistentes a la corrosión y elevadas temperaturas, y disponer de puertas de fácil manejo y cierre hermético, así como estar provistas de un sistema de humectación para las piezas de madera, También deben poseer  un drenaje interior para la evacuación del agua eliminada durante el secado, producto de la evaporación del agua de la madera y/o de los tratamientos humectantes.
 
     .row.my-4.g-4.justify-content-center
@@ -177,7 +177,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-tarjeta-acordion")
           .row.justify-content-center(titulo="Control del proceso de secado")
             .col-lg-4.mb-4
-              p.ms-5 De ezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
+              p.ms-5 De piezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
             .col-lg-7.ms-4
                 img.img-fluid.img650(src='@/assets/curso/tema1/t01.svg', alt='Control del proceso de secado')
                 figcaption.bg-light Preparación de muestras de control de humedad
