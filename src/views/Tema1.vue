@@ -177,7 +177,7 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-tarjeta-acordion")
           .row.justify-content-center(titulo="Control del proceso de secado")
             .col-lg-4.mb-4
-              p.ms-5 De piezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
+              p.ms-5 Deben utilizarse dos tipos diferentes de piezas testigos: las muestras o tablas de control, que se distribuyen dentro de la cámara para vigilar el proceso de secado, y las probetas, para determinar el contenido de humedad, tal como se puede observar en la siguiente figura:
             .col-lg-7.ms-4
                 img.img-fluid.img650(src='@/assets/curso/tema1/t01.svg', alt='Control del proceso de secado')
                 figcaption.bg-light Preparación de muestras de control de humedad
