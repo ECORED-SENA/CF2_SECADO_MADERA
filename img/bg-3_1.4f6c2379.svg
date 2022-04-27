@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1328" height="497.246" viewBox="0 0 1328 497.246">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.493" y1="-0.102" x2="0.5" y2="1.07" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5ecdc"/>
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.995" stop-color="#e8d1b7"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_44872" data-name="Rectangle 44872" width="1328" height="301" transform="translate(-9500 -4520)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6" stop-opacity="0"/>
+      <stop offset="1" stop-color="#eae8e8"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_157310" data-name="Group 157310" transform="translate(-136 -1473.912)" opacity="0.5">
+    <path id="Path_204391" data-name="Path 204391" d="M5420.66,2353.433s359.087-130.65,675.583-37.345,652.417,15.755,652.417,15.755V2777.6h-1328Z" transform="translate(-5284.66 -808.58)" fill="url(#linear-gradient)"/>
+    <g id="Mask_Group_55" data-name="Mask Group 55" transform="translate(9636 6190.158)" clip-path="url(#clip-path)">
+      <g id="Group_150343" data-name="Group 150343" transform="translate(-9500 -4456.341)">
+        <g id="Group_150342" data-name="Group 150342" transform="translate(0)">
+          <path id="Path_204393" data-name="Path 204393" d="M2.235-1559.781s-85.629-13-277.3,94.465-619.908-44.226-717.229-61.456-270.688,3.478-333.475,48.072V-366.4h1328Z" transform="translate(1325.765 1560.275)" opacity="0.531" fill="url(#linear-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+          <path id="Path_204394" data-name="Path 204394" d="M2.235-1560.275s-223.333,178.8-536.471,93.32c-162.832-44.448-330.233-5.086-456.956,0-117.471,4.715-194.5-24.491-334.574-66.612V-388.979h1328Z" transform="translate(1325.765 1583.661)" opacity="0.63" fill="url(#linear-gradient-2)" style="mix-blend-mode: multiply;isolation: isolate"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
