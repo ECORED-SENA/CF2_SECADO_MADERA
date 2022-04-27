@@ -150,12 +150,12 @@ export default {
     },
     {
       referencia: 'IDEAM-SIAC. (s. f.). Calidad de Aire. SIAC. ',
-      link: 'http://www.siac.gov.co/calidadaire',
+      link: 'http://www.siac.gov.co/en/calidad-del-aire ',
     },
     {
       referencia:
-        'Muñoz-Acosta, F. (2012). Serie: Madera para construcción Secado de la madera aserrada. Revista Forestal Mesoamericana Kurú, 5(13), p. 58–63. ',
-      link: 'https://revistas.tec.ac.cr/index.php/kuru/article/view/477',
+        'Muñoz-Acosta, F. (2008). Serie: Madera para construcción Secado de la madera aserrada. Revista Forestal Mesoamericana Kurú, 5(13), p. 58–63. ',
+      link: '',
     },
     {
       referencia:
